@@ -1,5 +1,12 @@
 pragma circom 2.1.2;
 
-template Template() {}
+template Multiplier() {
+    signal input a;
+    signal input b;
+    signal output c;
 
-component main = Template();
+    
+    c <== a*b;
+}
+
+component main = Multiplier();

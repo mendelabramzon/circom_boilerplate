@@ -13,5 +13,8 @@
   },
   "keywords": [],
   "author": "Vladimir Kumalagov",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "circomlib": "^2.0.5"
+  }
 }
