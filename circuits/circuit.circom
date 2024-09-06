@@ -1,12 +1,4 @@
 pragma circom 2.1.2;
+include "BabyRoll.circom";
 
-template Multiplier() {
-    signal input a;
-    signal input b;
-    signal output c;
-
-    
-    c <== a*b;
-}
-
-component main = Multiplier();
+component main { public [initial_rollup_root] } = BabyRoll(1);
